@@ -1,0 +1,22 @@
+{
+  "name": "test-npx-node",
+  "version": "1.0.0",
+  "description": "Testing how to run a node script with a defined node version with npx or by adding node as a regular npm dependency.",
+  "author": "marlou <pro@marc-loupias.fr>",
+  "private": true,
+  "license": "WTFPL",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.0.0"
+  },
+  "main": "index.js",
+  "scripts": {
+    "node-version": "npx node -v",
+    "start": "node index",
+    "run-node-7": "npx -p node@7 -- node index",
+    "run-node-9": "npx -p node@9 -- node index"
+  },
+  "dependencies": {
+    "node": "^8.9.4"
+  }
+}

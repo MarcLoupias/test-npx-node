@@ -1,0 +1,49 @@
+######################
+# Node
+######################
+node/**
+**/node_modules/**
+
+######################
+# Intellij
+######################
+.idea/**
+*.iml
+*.iws
+*.ipr
+*.ids
+*.orig
+
+######################
+# Logs
+######################
+*.log
+
+######################
+# Others
+######################
+*.*~
+*~
+.merge_file*
+
+######################
+# Windows
+######################
+# Windows image file caches
+Thumbs.db
+
+# Folder config file
+Desktop.ini
+
+######################
+# Mac OSX
+######################
+.DS_Store
+.svn
+
+# Thumbnails
+._*
+
+# Files that might appear on external disk
+.Spotlight-V100
+.Trashes
