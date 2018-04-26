@@ -13,10 +13,9 @@
   "scripts": {
     "node-version": "npx node -v",
     "start": "node index",
-    "run-node-7": "npx -p node@7 -- node index",
-    "run-node-9": "npx -p node@9 -- node index"
+    "run-node-10": "npx -p node@10 -- node index"
   },
   "dependencies": {
-    "node": "^8.9.4"
+    "node": "10.0.0"
   }
 }
