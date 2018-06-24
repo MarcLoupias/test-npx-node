@@ -7,13 +7,13 @@
   "license": "WTFPL",
   "engines": {
     "node": ">=6.0.0",
-    "npm": ">=5.0.0"
+    "npm": ">=5.2.0"
   },
   "main": "index.js",
   "scripts": {
-    "node-version": "npx node -v",
-    "start": "node index",
-    "run-node-10": "npx -p node@10 -- node index"
+    "start": "npx node index",
+    "run-node-10-5-0-without-install": "npx -p node@10.5.0 -- node index",
+    "run-gist": "npx https://gist.github.com/zkat/4bc19503fe9e9309e2bfaa2c58074d32"
   },
   "dependencies": {
     "node": "10.0.0"
